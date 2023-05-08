@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.padding {
+
+  padding: 0px 100px;
+}
+
+.header_menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #000;
+  color: #fff;
+}
+
+.logo {
+  width: 30%;
+}
+
+.menu_list {
+  width: 70%;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.menu_list li {
+  display: inline-block;
+  text-transform: uppercase;
+  list-style: none;
+  letter-spacing: 2px;
+  padding-left: 50px;
+}
+
+.menu_list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu_list li a:hover {
+  color: orange;
+}
+
+.bg-img {
+  width: 100%;
+  height: 95vh;
+  color: #fff;
+  background-image: url(../images/bg-section.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-img h4 {
+  color: red;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.bg-img h1 {
+
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.pad {
+  padding: 25px 130px;
+}
+
+.product-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: red;
+  font-weight: 600;
+}
+
+.product-text a {
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+}
+
+/* - START FEATURE-PRODUCTS ---------------------------- */
+.features-products {
+  padding: 0px 130px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.features-products h2 {
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.features-products p {
+  font-size: 18px;
+}
+
+.features-allpro {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.features-allpro .pro1 {
+  width: 67%;
+  max-width: 342px;
+  height: 70vh;
+  border: 1px solid rgb(237, 229, 229);
+  padding: 0px 24px;
+  padding-top: 10px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 15px rgb(210, 196, 196);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.pro1 img {
+  width: 100%;
+  height: 32vh;
+  border: 1px solid rgb(234, 225, 225);
+  border-radius: 10px;
+  overflow: hidden;
+  animation-name: zoom;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.pro1 .desk {
+  text-align: start;
+  padding: 35px 5px;
+  position: relative;
+}
+
+.desk-d {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desk-d h3 {
+  color: red;
+}
+
+.desk-d h4 {
+  color: rgb(147, 141, 141);
+  font-style: 600;
+  font-size: 20px;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-icon {
+  color: red;
+  padding: 10px 0px;
+}
+
+.cart-btn button {
+  padding: 10px 10px;
+  color: red;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.cart-btn button:hover {
+  background-color: rgb(194, 201, 207);
+  color: red;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1.5px solid rgb(208, 205, 205);
+  margin-bottom: 30px;
+}
+
+.hero_text {
+  padding-right: 20px;
+}
+
+.hero_text h2 {
+  color: blue;
+  margin-bottom: 30px;
+
+}
+
+.hero_text p {
+
+  margin-bottom: 25px;
+
+}
+
+.hero_text ul {
+
+  margin-bottom: 25px;
+  padding-left: 16px;
+
+}
+
+.hero_text button {
+  width: 20%;
+  font-size: 14px;
+  padding: 12px;
+  background-color: red;
+  color: aliceblue;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero_text button:hover {
+
+  background-color: rgb(194, 201, 207);
+  color: red;
+
+
+}
